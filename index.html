@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>안녕</p>
+    <script>
+        document.querySelector('p');
+        const pElement = document.querySelector('p');
+        console.log(pElement);
+
+        // string
+        let a = 'ddd';
+        a = '바보야'; // 값을 바꾸는 방법은 왼쪽에 변수명을 넣고 = 오른쪽에 값 넣기
+        a = a + '미연아';
+
+
+        // number
+        let num = 570;
+        num = 570 * 12;
+        num = num + (30 * 12);
+
+
+        let c = a + num;
+
+        //object
+        let d = {aaa: '넌 d야', bbb: '두번째야', ccc: 100}; // 변수들을 갖는 변수(aaa가 key, '넌d야'가 value)
+        num = num + d.ccc;
+
+
+
+        //array
+        let arr = [1,2,3,4,5];
+        let arr3 = arr[2];
+        let arrStr = ['하', '파', '카', '타', '차', '자'];
+        let arrStr4 = arrStr[4];
+
+        let objArr = [{age:44, school: 'inha'}, {age: 34, school: 'gachoen'}];
+        let objArr2 = objArr[1].school;
+        
+
+        let loveAge = 44;
+        let myAge = 34;
+
+        loveAge = loveAge + 1;
+
+        let ourAge = loveAge + myAge;
+
+        
+
+
+
+
+
+
+
+
+
+
+
+        pElement.innerText = ourAge;
+
+        
+    </script>
+</body>
+</html>
