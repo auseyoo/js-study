@@ -29,7 +29,7 @@
         let c = a + num;
 
         //object
-        let d = {aaa: '넌 d야', bbb: '두번째야', ccc: 100}; // 변수들을 갖는 변수(aaa가 key, '넌d야'가 value)
+        let d = {aaa: '넌 d야', bbb: '두번째야', ccc: 100}; // 변수들을 갖는 변수(aaa가 key, '넌d야'가 value) 
         num = num + d.ccc;
 
 
@@ -51,6 +51,18 @@
 
         let ourAge = loveAge + myAge;
 
+
+
+        let ob = {a:34, b:'44'};
+        ob.b;
+
+        let array = [{a : '가', b : '나'},{c : '다', d : '라'}];
+        c = array[1].c;
+        let dd = array[1];
+        let ee = array[0].b + array[1].d;
+
+        array[0].b = '바';
+        ob.a = 50;
         
 
 
@@ -63,9 +75,14 @@
 
 
 
-        pElement.innerText = ourAge;
+        pElement.innerText = ee;
 
         
     </script>
 </body>
 </html>
+
+
+
+
+
